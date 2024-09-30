@@ -5,7 +5,7 @@ import imutils
 
 gun_cascade = cv2.CascadeClassifier('cascade.xml')
 
-img = cv2.imread("Pics/John1.jpeg")
+img = cv2.imread("Image_path")
 
 frame = imutils.resize(img, width=500)
 
@@ -21,7 +21,7 @@ for (x,y,w,h) in guns:
     cv2.putText(frame,'Firearm detected!',(x,y-10),cv2.FONT_HERSHEY_SIMPLEX,
                 0.75,(0,255,255),2,cv2.LINE_AA)
 
-cv2.imshow("john wick", frame)
+cv2.imshow("Title_name", frame)
 key=cv2.waitKey(0) & 0xFF
 
 if key == ord('q'):
