@@ -5,7 +5,7 @@ import datetime
 
 gun_cascade = cv2.CascadeClassifier('cascade.xml')
 
-video_path = 'Videos/Stock2.mp4'
+video_path = 'Video_path'
 camera = cv2.VideoCapture(video_path)
 
 while True:
