@@ -4,14 +4,14 @@ import imutils
 import datetime
 from twilio.rest import Client
 
-account_sid = 'AC2d9477048f524448a962c5230df5c1da'
-auth_token = 'b5fac05688170d7301477bbc93ccb6f7'
-twilio_phone_number = '+14154134320'
-recipient_phone_numbers = '+919618462110', 
+account_sid = 'xxxxxxxxxxxxxxxx'
+auth_token = 'xxxxxxxxxxxxxxxx'
+twilio_phone_number = 'xxxxxxxxxxxxxxxx'
+recipient_phone_numbers = 'xxxxxxxxxxx', 
 
 gun_cascade = cv2.CascadeClassifier('cascade.xml')
 
-camera = cv2.VideoCapture('Videos/Stock4.mp4')
+camera = cv2.VideoCapture(Path) #image or video or live camera feed
 firstFrame = None
 
 client = Client(account_sid, auth_token)
