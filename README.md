@@ -33,9 +33,9 @@ pip install opencv-python imutils numpy
 ---
 
 ## 📚 Future Improvements
-🔹 Train a deep learning model (YOLO / SSD / Faster R-CNN) for higher accuracy
-🔹 Build a web interface for real-time monitoring
-🔹 Deploy on Raspberry Pi / Jetson Nano for edge computing
+-🔹Train a deep learning model (YOLO / SSD / Faster R-CNN) for higher accuracy
+-🔹 Build a web interface for real-time monitoring
+-🔹 Deploy on Raspberry Pi / Jetson Nano for edge computing
 
 ---
 
